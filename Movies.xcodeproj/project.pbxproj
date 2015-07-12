@@ -987,6 +987,7 @@
 				7BFB82161B3C1827001030AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
