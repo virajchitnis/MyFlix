@@ -97,14 +97,14 @@
 		7B22AD9818A18BDE00022013 /* KMMovieDetailsViewAllCommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMMovieDetailsViewAllCommentsCell.h; sourceTree = "<group>"; };
 		7B22AD9918A18BDE00022013 /* KMMovieDetailsViewAllCommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMMovieDetailsViewAllCommentsCell.m; sourceTree = "<group>"; };
 		7B22AD9A18A18BDE00022013 /* KMMovieDetailsViewAllCommentsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMMovieDetailsViewAllCommentsCell.xib; sourceTree = "<group>"; };
-		7B2F318618A011A0008CD0DA /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2F318618A011A0008CD0DA /* MyFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2F318918A011A0008CD0DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B2F318B18A011A0008CD0DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7B2F318D18A011A0008CD0DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7B2F319118A011A0008CD0DA /* Movies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Movies-Info.plist"; sourceTree = "<group>"; };
+		7B2F319118A011A0008CD0DA /* MyFlix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFlix-Info.plist"; sourceTree = "<group>"; };
 		7B2F319318A011A0008CD0DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B2F319518A011A0008CD0DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7B2F319718A011A0008CD0DA /* Movies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movies-Prefix.pch"; sourceTree = "<group>"; };
+		7B2F319718A011A0008CD0DA /* MyFlix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFlix-Prefix.pch"; sourceTree = "<group>"; };
 		7B2F319B18A011A0008CD0DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B2F31A218A011A0008CD0DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7B2F31B918A011FE008CD0DA /* KMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMAppDelegate.h; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		7BFB81EC1B3C1739001030AC /* KMNetworkLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMNetworkLoadingViewController.m; sourceTree = "<group>"; };
 		7BFB81ED1B3C1739001030AC /* StoryBoardUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryBoardUtilities.h; sourceTree = "<group>"; };
 		7BFB81EE1B3C1739001030AC /* StoryBoardUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryBoardUtilities.m; sourceTree = "<group>"; };
-		7BFB820C1B3C1827001030AC /* MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFB820C1B3C1827001030AC /* MyFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BFB820F1B3C1827001030AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BFB82101B3C1827001030AC /* MoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesTests.m; sourceTree = "<group>"; };
 		D671AB54250C4F98B999C342 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -241,8 +241,8 @@
 		7B2F318718A011A0008CD0DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B2F318618A011A0008CD0DA /* Movies.app */,
-				7BFB820C1B3C1827001030AC /* MoviesTests.xctest */,
+				7B2F318618A011A0008CD0DA /* MyFlix.app */,
+				7BFB820C1B3C1827001030AC /* MyFlixTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,10 +278,10 @@
 		7B2F319018A011A0008CD0DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B2F319118A011A0008CD0DA /* Movies-Info.plist */,
+				7B2F319118A011A0008CD0DA /* MyFlix-Info.plist */,
 				7B2F319218A011A0008CD0DA /* InfoPlist.strings */,
 				7B2F319518A011A0008CD0DA /* main.m */,
-				7B2F319718A011A0008CD0DA /* Movies-Prefix.pch */,
+				7B2F319718A011A0008CD0DA /* MyFlix-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -598,9 +598,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B2F318518A011A0008CD0DA /* Movies */ = {
+		7B2F318518A011A0008CD0DA /* MyFlix */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B2F31B218A011A0008CD0DA /* Build configuration list for PBXNativeTarget "Movies" */;
+			buildConfigurationList = 7B2F31B218A011A0008CD0DA /* Build configuration list for PBXNativeTarget "MyFlix" */;
 			buildPhases = (
 				B1123B9241B141738C76E92D /* Check Pods Manifest.lock */,
 				7B2F318218A011A0008CD0DA /* Sources */,
@@ -612,14 +612,14 @@
 			);
 			dependencies = (
 			);
-			name = Movies;
+			name = MyFlix;
 			productName = TheMovieDB;
-			productReference = 7B2F318618A011A0008CD0DA /* Movies.app */;
+			productReference = 7B2F318618A011A0008CD0DA /* MyFlix.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7BFB820B1B3C1827001030AC /* MoviesTests */ = {
+		7BFB820B1B3C1827001030AC /* MyFlixTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BFB82141B3C1827001030AC /* Build configuration list for PBXNativeTarget "MoviesTests" */;
+			buildConfigurationList = 7BFB82141B3C1827001030AC /* Build configuration list for PBXNativeTarget "MyFlixTests" */;
 			buildPhases = (
 				7BFB82081B3C1827001030AC /* Sources */,
 				7BFB82091B3C1827001030AC /* Frameworks */,
@@ -630,9 +630,9 @@
 			dependencies = (
 				7BFB82131B3C1827001030AC /* PBXTargetDependency */,
 			);
-			name = MoviesTests;
+			name = MyFlixTests;
 			productName = MoviesTests;
-			productReference = 7BFB820C1B3C1827001030AC /* MoviesTests.xctest */;
+			productReference = 7BFB820C1B3C1827001030AC /* MyFlixTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -651,7 +651,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B2F318118A011A0008CD0DA /* Build configuration list for PBXProject "Movies" */;
+			buildConfigurationList = 7B2F318118A011A0008CD0DA /* Build configuration list for PBXProject "MyFlix" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -663,8 +663,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B2F318518A011A0008CD0DA /* Movies */,
-				7BFB820B1B3C1827001030AC /* MoviesTests */,
+				7B2F318518A011A0008CD0DA /* MyFlix */,
+				7BFB820B1B3C1827001030AC /* MyFlixTests */,
 			);
 		};
 /* End PBXProject section */
@@ -795,7 +795,7 @@
 /* Begin PBXTargetDependency section */
 		7BFB82131B3C1827001030AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B2F318518A011A0008CD0DA /* Movies */;
+			target = 7B2F318518A011A0008CD0DA /* MyFlix */;
 			targetProxy = 7BFB82121B3C1827001030AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -889,9 +889,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Movies/Movies-Prefix.pch";
-				INFOPLIST_FILE = "Movies/Movies-Info.plist";
-				PRODUCT_NAME = Movies;
+				GCC_PREFIX_HEADER = "Movies/MyFlix-Prefix.pch";
+				INFOPLIST_FILE = "Movies/MyFlix-Info.plist";
+				PRODUCT_NAME = MyFlix;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -903,9 +903,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Movies/Movies-Prefix.pch";
-				INFOPLIST_FILE = "Movies/Movies-Info.plist";
-				PRODUCT_NAME = Movies;
+				GCC_PREFIX_HEADER = "Movies/MyFlix-Prefix.pch";
+				INFOPLIST_FILE = "Movies/MyFlix-Info.plist";
+				PRODUCT_NAME = MyFlix;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -931,7 +931,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyFlixTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies.app/Movies";
 			};
 			name = Debug;
@@ -954,7 +954,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyFlixTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movies.app/Movies";
 			};
 			name = Release;
@@ -962,7 +962,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B2F318118A011A0008CD0DA /* Build configuration list for PBXProject "Movies" */ = {
+		7B2F318118A011A0008CD0DA /* Build configuration list for PBXProject "MyFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B2F31B018A011A0008CD0DA /* Debug */,
@@ -971,7 +971,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B2F31B218A011A0008CD0DA /* Build configuration list for PBXNativeTarget "Movies" */ = {
+		7B2F31B218A011A0008CD0DA /* Build configuration list for PBXNativeTarget "MyFlix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B2F31B318A011A0008CD0DA /* Debug */,
@@ -980,7 +980,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BFB82141B3C1827001030AC /* Build configuration list for PBXNativeTarget "MoviesTests" */ = {
+		7BFB82141B3C1827001030AC /* Build configuration list for PBXNativeTarget "MyFlixTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7BFB82151B3C1827001030AC /* Debug */,
